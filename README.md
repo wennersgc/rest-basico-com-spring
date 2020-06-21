@@ -11,10 +11,12 @@ Retorna o jedi com o ID especicificado
 localhost:8080/api/jedi
 verbo HTTP: POST
 Para criar um jedi, passar um Json nod Body com as seguintes informações:
+```
   {
   "name": "nome do jedi",
   "lastName": "sobrenome do jedi"
   }
+ ```
 
 localhost:8080/api/jedi/{id}
 verbo HTTP: PUT
